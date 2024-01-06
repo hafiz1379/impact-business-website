@@ -1,8 +1,8 @@
-import { useRoutes } from "react-router-dom";
-import { routing } from "./Route";
+import { useRoutes } from 'react-router-dom';
+import routing from './Route';
 
 function App() {
-  let router = useRoutes(routing);
+  const router = useRoutes(routing);
   return router;
 }
 

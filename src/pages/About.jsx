@@ -1,9 +1,10 @@
-import Nav from "../components/Navbar";
+import Nav from '../components/Navbar';
+
 function About() {
   return (
     <div>
-    <Nav />
-    <h1>Welcome to the about page</h1>
+      <Nav />
+      <h1>Welcome to the about page</h1>
     </div>
   );
 }
