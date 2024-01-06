@@ -13,6 +13,7 @@ module.exports = {
       },
       backgroundColor: {
         main: "#00796b",
+        card: "#008d7d",
       },
       textColor: {
         main: "#ffffff",
@@ -30,7 +31,7 @@ module.exports = {
       },
       screens: {
         sm: "580px",
-        md: "760px",
+        md: "730px",
         lg: "990px",
         xl: "1280px",
       },
