@@ -1,6 +1,6 @@
-import { FaRegCirclePlay } from "react-icons/fa6";
-import hero_img from "../../assets/images/hero-img.svg";
-import Homecards from "./Homecards";
+import { FaRegCirclePlay } from 'react-icons/fa6';
+import heroImg from '../../assets/images/hero-img.svg';
+import Homecards from './Homecards';
 
 export default function HomeTitle() {
   return (
@@ -9,7 +9,7 @@ export default function HomeTitle() {
         <div className="w-full pt-8 lg:flex flex-row-reverse">
           <img
             className="px-3 w-full h-80 md:h-[370px] lg:min-h-96"
-            src={hero_img}
+            src={heroImg}
             alt=""
           />
           {/* start header info */}
@@ -22,11 +22,17 @@ export default function HomeTitle() {
               eveniet. Eum quas beatae cumque eum quaerat.
             </p>
             <div className="flex justify-between py-3 w-92 h-32">
-              <button className="border h-14 mt-6 border-white border-opacity-30 py-4 px-10 rounded-full bg-white bg-opacity-10 text-white font-500  hover:border-opacity-75 hover:border-2 font-main transition duration-200">
-                {" "}
+              <button
+                type="button"
+                className="border h-14 mt-6 border-white border-opacity-30 py-4 px-10 rounded-full bg-white bg-opacity-10 text-white font-500  hover:border-opacity-75 hover:border-2 font-main transition duration-200"
+              >
+                {' '}
                 Get Started
               </button>
-              <button className="flex justify-center items-center ml-5 text-white font-600  hover:text-opacity-95">
+              <button
+                type="button"
+                className="flex justify-center items-center ml-5 text-white font-600  hover:text-opacity-95"
+              >
                 <span className="mr-3 text-h2 text-opacity-40 text-white">
                   <FaRegCirclePlay />
                 </span>
