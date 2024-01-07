@@ -1,10 +1,11 @@
 import Nav from '../components/Navbar';
+import HomeTitle from '../components/Home/HomeTitle';
 
 function Home() {
   return (
     <>
       <Nav />
-      <h1>Welcome to the home page</h1>
+      <HomeTitle />
     </>
   );
 }

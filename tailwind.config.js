@@ -13,6 +13,7 @@ module.exports = {
       },
       backgroundColor: {
         main: '#00796b',
+        card: '#008d7d',
       },
       textColor: {
         main: '#ffffff',
@@ -26,6 +27,13 @@ module.exports = {
       fontWeight: {
         700: 700,
         600: 600,
+        500: 500,
+      },
+      screens: {
+        sm: '580px',
+        md: '730px',
+        lg: '990px',
+        xl: '1280px',
       },
     },
   },
