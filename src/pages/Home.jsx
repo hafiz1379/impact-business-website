@@ -4,6 +4,7 @@ import AboutHeader from '../components/About/AboutHeader';
 import AboutBody from '../components/About/AboutBody';
 import ClientLogos from '../components/About/ClientLogos';
 import AboutStatistics from '../components/About/AboutStatistics';
+import Service from '../components/Service/Service';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <AboutBody />
       <ClientLogos />
       <AboutStatistics />
+      <Service />
     </>
   );
 }
