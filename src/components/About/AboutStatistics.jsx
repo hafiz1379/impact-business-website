@@ -4,8 +4,8 @@ import stateImg from '../../assets/images/stats-img.svg';
 function AboutStatistics() {
   return (
     <div className="px-4 md:px-12 lg:px-16">
-      <div className="flex md:space-x-8">
-        <div className="w-full md:w-[50%]">
+      <div className="lg:flex md:space-x-8">
+        <div className="w-full lg:w-[50%]">
           <img src={stateImg} alt="" />
         </div>
         <div className="my-12 space-y-4 md:mt-6 md:space-y-1">
@@ -32,7 +32,6 @@ function AboutStatistics() {
             </p>
           </div>
         </div>
-        <div />
       </div>
       <div>
         <div className="rounded-lg overflow-hidden my-28 w-[100%]">
