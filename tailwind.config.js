@@ -18,6 +18,8 @@ module.exports = {
       textColor: {
         main: '#ffffff',
         second: '#f85040',
+        pageHeader: '#6f6f6f',
+        green2: '#00796b',
       },
       fontFamily: {
         main: ['Montserrat', 'sans-serif'],
@@ -28,6 +30,8 @@ module.exports = {
         700: 700,
         600: 600,
         500: 500,
+        800: 800,
+        900: 900,
       },
       screens: {
         sm: '580px',
