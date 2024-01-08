@@ -50,7 +50,13 @@ const SimpleSlider = () => {
     // eslint-disable-next-line react/jsx-no-comment-textnodes
     <div className="mt-10">
       // eslint-disable-next-line react/jsx-props-no-spreading
-      <Slider {...settings}>
+      <Slider
+        dots={settings.dots}
+        infinite={settings.infinite}
+        speed={settings.speed}
+        slidesToShow={settings.slidesToShow}
+        slidesToScroll={settings.slidesToScroll}
+      >
         {data.map((d) => (
           <div key={d.name} className="border border-gray-400 w-[300px] p-8 shadow-lg rounded-lg">
             <div className="flex justify-start items-center w-full">
