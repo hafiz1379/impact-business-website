@@ -1,4 +1,5 @@
 import ServiceHeader from './ServiceHeader';
+import SimpleSlider from './slider';
 
 function ServiceSlider() {
   const TestimonialsDes = 'Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam';
@@ -6,6 +7,7 @@ function ServiceSlider() {
     <>
       <div className="bg-white py-10">
         <ServiceHeader title="Testimonials" description={TestimonialsDes} />
+        <SimpleSlider />
       </div>
     </>
   );

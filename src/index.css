@@ -7,3 +7,7 @@
     @apply flex justify-center items-center;
   }
 }
+
+.slick-slide > div {
+  margin: 0 40px;
+}
