@@ -47,9 +47,7 @@ const SimpleSlider = () => {
   };
 
   return (
-    // eslint-disable-next-line react/jsx-no-comment-textnodes
     <div className="mt-10">
-      // eslint-disable-next-line react/jsx-props-no-spreading
       <Slider
         dots={settings.dots}
         infinite={settings.infinite}
