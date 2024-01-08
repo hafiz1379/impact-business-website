@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 export default function ServiceCard() {
   return (
     <>
-      <div className="shadow-md px-6 mb-10 py-12 rounded-lg bg-white flex flex-col items-start justify-start md:ml-6 sm:w-[512px] md:w-[320px] lg:w-[300px] xl:w-[350px]">
+      <div className="shadow-md px-8 mb-10 py-12 rounded-lg bg-white flex flex-col items-start justify-start md:ml-6 sm:w-[512px] md:w-[320px] lg:w-[300px] xl:w-[350px]">
         <span className="text-h1 mb-3">
           <TbActivityHeartbeat />
         </span>

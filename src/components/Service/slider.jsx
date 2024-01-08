@@ -37,24 +37,47 @@ const data = [
   },
 ];
 
-const SimpleSlider = () => {
+const CardSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className="mt-10">
-      <Slider
-        dots={settings.dots}
-        infinite={settings.infinite}
-        speed={settings.speed}
-        slidesToShow={settings.slidesToShow}
-        slidesToScroll={settings.slidesToScroll}
-      >
+      {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
+      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+      <Slider {...settings}>
         {data.map((d) => (
           <div key={d.name} className="border border-gray-400 w-[300px] p-8 shadow-lg rounded-lg">
             <div className="flex justify-start items-center w-full">
@@ -85,4 +108,4 @@ const SimpleSlider = () => {
   );
 };
 
-export default SimpleSlider;
+export default CardSlider;
