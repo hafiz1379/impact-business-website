@@ -8,7 +8,7 @@ export default function Service() {
     <>
       <div className="bg-[#F6F6F6] text-center py-10">
         <ServiceHeader title="Our Services" description={cardDes} />
-        <div className="cards w-full mt-10 flex flex-wrap justify-center sm:px-2 lg:px-0">
+        <div className="cards w-full mt-10 flex flex-wrap justify-center px-2 lg:px-0">
           <ServiceCard />
           <ServiceCard />
           <ServiceCard />
