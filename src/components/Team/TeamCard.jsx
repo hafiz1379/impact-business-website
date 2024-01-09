@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 function TeamCard({name, position, image}) {
   return (
     <>
-      <div className="border border-gray-300 p-6 w-full p-2 xl:mx-2 shadow-lg rounded-xl mt-6">
+      <div className="border border-gray-300 p-6 w-full xl:mx-2 shadow-lg rounded-xl mt-6">
         <img
           className="w-full rounded-lg"
           src={image}
