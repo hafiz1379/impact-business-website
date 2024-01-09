@@ -14,7 +14,7 @@ import blog6author from '../../assets/images/blog/blog-author-6.jpg';
 
 function BlogCards() {
   return (
-    <div className="py-12 md:px-12 lg:px-16 space-y-2 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="px-4 py-12 md:px-12 lg:px-16 space-y-2 grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4">
       <BlogCard
         img1={blog1}
         job="Politics"
