@@ -2,7 +2,7 @@
 
 function BlogCard({ img1, job, desc, img2, name, date }) {
   return (
-    <div className="mx-4 rounded-lg shadow-md space-y-4">
+    <div className=" rounded-lg shadow-md space-y-4">
       <div>
         <img src={img1} alt=""  className="rounded-t-lg" />
       </div>
