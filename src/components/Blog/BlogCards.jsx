@@ -1,3 +1,5 @@
+import React from 'react';
+
 import BlogCard from './BlogCard';
 import blog1 from '../../assets/images/blog/blog-1.jpg';
 import blog1author from '../../assets/images/blog/blog-author.jpg';

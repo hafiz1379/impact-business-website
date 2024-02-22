@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ServiceHeader from './ServiceHeader';
 import ServiceCard from './ServiceCard';
 import ServiceSlider from './ServiceSlider';

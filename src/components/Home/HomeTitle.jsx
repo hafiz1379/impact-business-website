@@ -1,6 +1,9 @@
-import { FaRegCirclePlay } from 'react-icons/fa6';
-import heroImg from '../../assets/images/hero-img.svg';
-import Homecards from './Homecards';
+/* eslint-disable */
+import React from "react";
+
+import { FaRegCirclePlay } from "react-icons/fa6";
+import heroImg from "../../assets/images/hero-img.svg";
+import Homecards from "./Homecards";
 
 export default function HomeTitle() {
   return (
@@ -26,7 +29,7 @@ export default function HomeTitle() {
                 type="button"
                 className="border h-14 mt-6 border-white border-opacity-30 py-4 px-10 rounded-full bg-white bg-opacity-10 text-white font-500  hover:border-opacity-75 hover:border-2 font-main transition duration-200"
               >
-                {' '}
+                {" "}
                 Get Started
               </button>
               <button

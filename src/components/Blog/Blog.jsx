@@ -1,3 +1,5 @@
+import React from 'react';
+
 import BlogCards from './BlogCards';
 import BlogHeader from './BlogHeader';
 

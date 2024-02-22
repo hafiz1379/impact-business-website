@@ -1,3 +1,5 @@
+import React from 'react';
+
 import AboutBody from './AboutBody';
 import AboutHeader from './AboutHeader';
 import AboutStatistics from './AboutStatistics';

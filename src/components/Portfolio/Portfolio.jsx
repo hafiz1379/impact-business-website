@@ -1,3 +1,5 @@
+import React from 'react';
+
 import PortfolioCards from './PortfolioCards';
 import PortfolioHeader from './PortfolioHeader';
 

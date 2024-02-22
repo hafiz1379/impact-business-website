@@ -1,3 +1,5 @@
+import React from 'react';
+
 import TeamHeader from '../Service/ServiceHeader';
 import TeamCards from './TeamCards';
 

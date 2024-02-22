@@ -1,4 +1,5 @@
-import Nav from '../components/Navbar';
+import React from "react";
+import Nav from "../components/Navbar";
 
 function Services() {
   return (

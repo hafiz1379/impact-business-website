@@ -1,4 +1,6 @@
 /*eslint-disable*/
+import React from 'react';
+
 function PortfolopCard({ img, title, desc }) {
     return (
         <div className="w-full shadow-md rounded-lg bg-[#fff]">

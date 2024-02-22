@@ -1,3 +1,4 @@
+import React from 'react';
 import Nav from '../components/Navbar';
 import HomeTitle from '../components/Home/HomeTitle';
 import Service from '../components/Service/Service';

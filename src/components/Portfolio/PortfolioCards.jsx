@@ -1,3 +1,5 @@
+import React from 'react';
+
 import PortfolioCard from './PortfolioCard';
 import App1 from '../../assets/images/portfolio/app-1.jpg';
 import Product1 from '../../assets/images/portfolio/product-1.jpg';

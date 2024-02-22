@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { IoTvSharp, IoCallOutline } from 'react-icons/io5';
 import { CiLocationOn } from 'react-icons/ci';
 import { MdOutlineEmail } from 'react-icons/md';

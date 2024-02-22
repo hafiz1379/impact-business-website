@@ -1,6 +1,9 @@
-import { IoLocationOutline } from 'react-icons/io5';
-import { BsClock, BsPhone } from 'react-icons/bs';
-import { MdOutlineMail } from 'react-icons/md';
+/* eslint-disable */
+import React from "react";
+
+import { IoLocationOutline } from "react-icons/io5";
+import { BsClock, BsPhone } from "react-icons/bs";
+import { MdOutlineMail } from "react-icons/md";
 
 function ContactForm() {
   return (

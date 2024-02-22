@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { IoCheckmarkCircle } from 'react-icons/io5';
 import ReactPlayer from 'react-player';
 import About from '../../assets/images/about.jpg';
