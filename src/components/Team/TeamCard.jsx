@@ -1,4 +1,6 @@
 /*eslint-disable*/
+import React from 'react';
+
 import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 

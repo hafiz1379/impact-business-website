@@ -1,3 +1,5 @@
+import React from 'react';
+
 function BlogHeader() {
   return (
     <div className="bg-main text-main text-center py-14 px-4 md:px-12 lg:px-16">

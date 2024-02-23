@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { TbActivityHeartbeat } from 'react-icons/tb';
 import { GoArrowRight } from 'react-icons/go';
 import { NavLink } from 'react-router-dom';

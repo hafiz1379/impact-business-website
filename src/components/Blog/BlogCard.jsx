@@ -1,4 +1,5 @@
 /* eslint-disable */
+import React from 'react';
 
 function BlogCard({ img1, job, desc, img2, name, date }) {
   return (

@@ -1,4 +1,6 @@
 /* eslint-disable */
+import React from 'react';
+
 function Header({ title, desc }) {
   return (
     <div className="my-16 flex-center flex-col px-4 sm:px-16 ">
