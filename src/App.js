@@ -1,9 +1,9 @@
-import { useRoutes } from 'react-router-dom';
-import routing from './Route';
+/* eslint-disable */
+import React from "react";
+import Home from "./pages/Home";
 
-function App() {
-  const router = useRoutes(routing);
-  return router;
+function Route() {
+  return <Home />;
 }
 
-export default App;
+export default Route;
