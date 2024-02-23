@@ -5,7 +5,7 @@ import PortfolioHeader from './PortfolioHeader';
 
 function Portfolio() {
   return (
-    <div className="bg-[#f6f6f6] py-14">
+    <div className="bg-[#f6f6f6] py-14" id="portfolio">
       <PortfolioHeader />
       <PortfolioCards />
     </div>
